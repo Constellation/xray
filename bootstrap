@@ -6,4 +6,5 @@ cmake -H. -Bout \
     -DLLVM_BUILD_TESTS=OFF \
     -DLLVM_INCLUDE_TESTS=OFF \
     -DLLVM_ENABLE_PIC=OFF \
-    -DCMAKE_BUILD_TYPE=Release
+    -DCMAKE_BUILD_TYPE=Release \
+    $@
