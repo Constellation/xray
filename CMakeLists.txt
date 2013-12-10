@@ -9,3 +9,7 @@ if(COMMAND cmake_policy)
 endif(COMMAND cmake_policy)
 
 add_subdirectory(third_party/llvm)
+
+set(XRAY_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
+set(XRAY_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR})
+add_subdirectory(lib/core)
