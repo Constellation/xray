@@ -1,5 +1,4 @@
 #include <clang/AST/ASTConsumer.h>
-#include <clang/Driver/OptTable.h>
 #include <clang/Driver/Options.h>
 #include <clang/Frontend/ASTConsumers.h>
 #include <clang/Frontend/CompilerInstance.h>
